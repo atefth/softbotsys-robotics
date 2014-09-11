@@ -1,0 +1,234 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"revolu",
+				"revolution_count"
+			],
+			[
+				"revo",
+				"revolution_count"
+			],
+			[
+				"ini",
+				"initialize"
+			],
+			[
+				"en",
+				"encoder_2_Count"
+			],
+			[
+				"enco",
+				"encoder_1_Count"
+			],
+			[
+				"moto",
+				"motor_2_in"
+			],
+			[
+				"motor_2_",
+				"motor_2_dir"
+			],
+			[
+				"pri",
+				"printMotorInfo"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"syn",
+				"Set Syntax: C"
+			],
+			[
+				"syn c",
+				"Set Syntax: C"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Atef/Documents/GitHub/BalancingRobotArduino/BalancingRobot.h",
+		"/C/Users/Atef/Documents/GitHub/BalancingRobotArduino/Kalman.h",
+		"/I/SoftBot™/Robotics/code/segbot_latest.c",
+		"/I/SoftBot™/Robotics/code/Sublime/SEGBOT/definitions.c",
+		"/I/SoftBot™/Robotics/code/Sublime/SEGBOT/Encoder.h",
+		"/C/Program Files (x86)/Arduino/libraries/Encoder_Polling/Encoder_Polling.h",
+		"/C/Program Files (x86)/Arduino/libraries/Encoder_Polling/Encoder_Polling.cpp",
+		"/I/SoftBot™/Robotics/code/Sublime/segbot_final.c",
+		"/I/SoftBot™/Robotics/code/Sublime/SEGBOT/keywords.txt",
+		"/I/SoftBot™/Robotics/code/Sublime/SEGBOT/encoder.cpp",
+		"/I/SoftBot™/Robotics/code/segbot_final/encoder.cpp",
+		"/C/Program Files (x86)/Arduino/libraries/AndroidAccessory/AndroidAccessory.h",
+		"/I/SoftBot™/Robotics/code/Sublime/encoder_lib",
+		"/C/Users/Atef/Desktop/Cpp Project",
+		"/H/Xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/H/Xampp/htdocs/laravel/bootstrap/autoload.php",
+		"/H/Xampp/htdocs/website/connect.inc.php",
+		"/H/Xampp/htdocs/website/core.inc.php",
+		"/H/Xampp/htdocs/website/login.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"layingDown",
+			"encodPinB2",
+			"encodPinA2",
+			"encodPinB1",
+			"encodPinA1",
+			"revo",
+			"moveConst",
+			"(moveConst * magnitudeTurns)",
+			"moveTurns",
+			"encoder",
+			"encoder_1",
+			"encoder",
+			"encoder_1",
+			"encoder",
+			"encoderPinA1",
+			"encodPin",
+			"encod",
+			"encodPinA1",
+			"motor_1_direction",
+			"PWM2",
+			"In2",
+			"In1",
+			"PWM1",
+			"//printMotorInfo();",
+			"if (initiate()){",
+			"  if (initiate()){",
+			"moveConst",
+			"magnitudeTurns",
+			"direction",
+			"In1",
+			"printMotorInfo();",
+			"moveFor",
+			"//printMotorInfo();",
+			"rencoder_1",
+			"encoder 1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"httpd-v",
+				"apache/conf/extra/httpd-vhosts.conf"
+			],
+			[
+				"auto",
+				"bootstrap/autoload.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

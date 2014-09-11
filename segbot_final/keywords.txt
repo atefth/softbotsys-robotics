@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map PreampInterrupts
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+encoder_1_begin	KEYWORD2
+
+encoder_1_data	KEYWORD2
+
+encoder_2_begin	KEYWORD2
+
+encoder_2_data	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

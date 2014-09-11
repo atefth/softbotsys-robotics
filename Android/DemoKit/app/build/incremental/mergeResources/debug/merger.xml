@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res" >
+            <file
+                name="ic_launcher_demokit"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\ic_launcher_demokit.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="indicator_button1_off_noglow"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\indicator_button1_off_noglow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="indicator_button1_on_noglow"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\indicator_button1_on_noglow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="indicator_button2_off_noglow"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\indicator_button2_off_noglow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="indicator_button2_on_noglow"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\indicator_button2_on_noglow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="indicator_button3_off_noglow"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\indicator_button3_off_noglow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="indicator_button3_on_noglow"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\indicator_button3_on_noglow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="indicator_button_capacitive_off_noglow"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\indicator_button_capacitive_off_noglow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="indicator_button_capacitive_on_noglow"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\indicator_button_capacitive_on_noglow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="joystick_background"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\joystick_background.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="joystick_normal_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\joystick_normal_holo_dark.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="joystick_pressed_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\joystick_pressed_holo_dark.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\scrubber_control_holo_dark.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_horizontal_blue_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\scrubber_horizontal_blue_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_horizontal_green_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\scrubber_horizontal_green_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_horizontal_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\scrubber_horizontal_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_horizontal_red_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\scrubber_horizontal_red_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_vertical_blue_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\scrubber_vertical_blue_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_vertical_green_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\scrubber_vertical_green_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="scrubber_vertical_red_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\scrubber_vertical_red_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tab_focused_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\tab_focused_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tab_normal_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\tab_normal_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tab_touched_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\tab_touched_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="toggle_button_off_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\toggle_button_off_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="toggle_button_on_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-hdpi\toggle_button_on_holo_dark.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher_demokit"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\ic_launcher_demokit.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="indicator_button1_off_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\indicator_button1_off_holo_dark.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="indicator_button1_on_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\indicator_button1_on_holo_dark.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="indicator_button2_off_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\indicator_button2_off_holo_dark.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="indicator_button2_on_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\indicator_button2_on_holo_dark.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="indicator_button3_off_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\indicator_button3_off_holo_dark.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="indicator_button3_on_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\indicator_button3_on_holo_dark.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="indicator_button_capacitive_off_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\indicator_button_capacitive_off_holo_dark.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="indicator_button_capacitive_on_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\indicator_button_capacitive_on_holo_dark.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="joystick_background"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\joystick_background.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="joystick_normal_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\joystick_normal_holo_dark.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="joystick_pressed_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\joystick_pressed_holo_dark.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_control_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\scrubber_control_holo_dark.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_horizontal_blue_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\scrubber_horizontal_blue_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_horizontal_green_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\scrubber_horizontal_green_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_horizontal_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\scrubber_horizontal_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_horizontal_red_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\scrubber_horizontal_red_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_vertical_blue_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\scrubber_vertical_blue_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_vertical_green_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\scrubber_vertical_green_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="scrubber_vertical_red_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\scrubber_vertical_red_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="tab_focused_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\tab_focused_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="tab_normal_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\tab_normal_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="toggle_button_off_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\toggle_button_off_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="toggle_button_on_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-mdpi\toggle_button_on_holo_dark.9.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="background_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-nodpi\background_holo_dark.jpg"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="demokit_splash"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-nodpi\demokit_splash.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="background_holo_dark"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\drawable-xlarge-nodpi\background_holo_dark.png"
+                qualifiers="xlarge-nodpi"
+                type="drawable" />
+            <file
+                name="buttoncontainer"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\buttoncontainer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="color_sliders"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\color_sliders.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="inputcontainer"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\inputcontainer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="joycontainer"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\joycontainer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="leds_tablet"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\leds_tablet.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="led_slider"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\led_slider.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="no_device"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\no_device.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="outputcontainer"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\outputcontainer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="output_tablet"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\output_tablet.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="relaybutton"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\relaybutton.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="relay_tablet"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\relay_tablet.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="servo"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\servo.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="servorelay"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\servorelay.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="servo_tablet"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\servo_tablet.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="templightcontainer"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\templightcontainer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="vertical_color_sliders"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\vertical_color_sliders.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="vertical_led_slider"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout\vertical_led_slider.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\layout-xlarge-land\main.xml"
+                qualifiers="xlarge-land"
+                type="layout" />
+            <file
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\values\attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="com.google.android.DemoKit.Slider" >
+                    <attr
+                        name="vertical"
+                        format="boolean" />
+                </declare-styleable>
+            </file>
+            <file
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\values\colors.xml"
+                qualifiers="" >
+                <color name="DemoKitTextWhite" >#FFF
+                </color>
+                <color name="DemoKitLabelGray" >#666
+                </color>
+            </file>
+            <file
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="relay2Label" >Relay
+<sub>
+2
+                    </sub></string>
+                <string name="ledLabel" >LED
+<sub>
+1
+                    </sub></string>
+                <string name="no_device" >Please connect a DemoKit board.
+                </string>
+                <string name="servo1Label" >Servo
+<sub>
+1
+                    </sub></string>
+                <string name="on" >On
+                </string>
+                <string name="off" >Off
+                </string>
+                <string name="relay1Label" >Relay
+<sub>
+1
+                    </sub></string>
+                <string name="app_name" >DemoKit
+                </string>
+                <string name="input" >In
+                </string>
+                <string name="output" >Out
+                </string>
+            </file>
+            <file
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="DemoKitLEDText"
+                    parent="@style/DemoKitControlLabel" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                </style>
+
+                <style
+                    name="DemoKitMeasurementSuffix"
+                    parent="@style/DemoKitMeasurement" >
+                    <item name="android:textSize">
+20dip
+                    </item>
+                </style>
+
+                <style
+                    name="DemoKitMeasurement"
+                    parent="@style/DemoKitTextBase" >
+                    <item name="android:textSize">
+40dip
+                    </item>
+                    <item name="android:layout_marginTop">
+-8dip
+                    </item>
+                    <item name="android:layout_marginBottom">
+0dip
+                    </item>
+                    <item name="android:layout_gravity">
+top
+                    </item>
+                </style>
+
+                <style
+                    name="DemoKitRelayButton"
+                    parent="@style/DemoKitTextBase" >
+                    <item name="android:textSize">
+15dip
+                    </item>
+                    <item name="android:layout_marginTop">
+-10dip
+                    </item>
+                    <item name="android:layout_height">
+70dip
+                    </item>
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                    <item name="android:textColor">
+@color/DemoKitTextWhite
+                    </item>
+                    <item name="android:gravity">
+center
+                    </item>
+                    <item name="android:background">
+@drawable/toggle_button_off_holo_dark
+                    </item>
+                </style>
+
+                <style
+                    name="DemoKitNoDevice"
+                    parent="@style/DemoKitTextBase" >
+                    <item name="android:textSize">
+30dip
+                    </item>
+                </style>
+
+                <style
+                    name="DemoKitTextBase"
+                    parent="@android:style/TextAppearance.Medium" >
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:typeface">
+sans
+                    </item>
+                    <item name="android:textSize">
+24dip
+                    </item>
+                    <item name="android:textColor">
+@color/DemoKitTextWhite
+                    </item>
+                    <item name="android:background">
+@null
+                    </item>
+                    <item name="android:includeFontPadding">
+false
+                    </item>
+                </style>
+
+                <style name="DemoKitButtonDisplay" >
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_weight">
+1
+                    </item>
+                    <item name="android:gravity">
+center_horizontal|bottom
+                    </item>
+                    <item name="android:layout_gravity">
+center
+                    </item>
+                    <item name="android:layout_margin">
+2dip
+                    </item>
+                    <item name="android:padding">
+2dip
+                    </item>
+                </style>
+
+                <style
+                    name="DemoKitControlLightLowerLabelConst"
+                    parent="@style/DemoKitControlLightLowerLabel" >
+                    <item name="android:textColor">
+@color/DemoKitLabelGray
+                    </item>
+                </style>
+
+                <style
+                    name="DemoKitControlLightLowerLabel"
+                    parent="@style/DemoKitTextBase" >
+                    <item name="android:layout_marginTop">
+-2dip
+                    </item>
+                    <item name="android:textSize">
+15dip
+                    </item>
+                    <item name="android:textColor">
+@color/DemoKitTextWhite
+                    </item>
+                </style>
+
+                <style
+                    name="DemoKitControlLabel"
+                    parent="@style/DemoKitTextBase" >
+                    <item name="android:textSize">
+15dip
+                    </item>
+                    <item name="android:textColor">
+@color/DemoKitLabelGray
+                    </item>
+                    <item name="android:includeFontPadding">
+true
+                    </item>
+                    <item name="android:layout_height">
+25dip
+                    </item>
+                    <item name="android:lineSpacingExtra">
+2dip
+                    </item>
+                </style>
+            </file>
+            <file
+                name="accessory_filter"
+                path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\main\res\xml\accessory_filter.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\build\res\rs\debug" />
+        <source path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\build\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Atef\Desktop\SoftBot\DemoKit\app\src\debug\res" />
+    </dataSet>
+
+</merger>
