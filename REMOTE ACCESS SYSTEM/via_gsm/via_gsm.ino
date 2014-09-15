@@ -1,13 +1,23 @@
 #include <SoftwareSerial.h>
-#include <String.h>
+//#include <String.h>
 #include <Button.h>
 #include <LCD5110_Graph.h>
+
+#include <easyscheduler.h>
+
+#include <Wiegand.h>
+WIEGAND wg;
+
+#define GRANTED 4419486
 
 #define BUTTON_PIN 44
 #define PULLUP true
 #define INVERT true
 #define DEBOUNCE_MS 20
 #define GMS_POWER 6
+
+Schedular checkForRFIDInput;
+Schedular checkForWebCommand;
 
 LCD5110 myGLCD(9,10,11,12,13);
 
@@ -35,8 +45,13 @@ void setup(){
   mySerial.begin(19200);  // the GPRS baud rate   
   Serial.begin(19200);    // the GPRS baud rate 
   delay(500);
+
+  checkForRFIDInput.start();
+  checkForWebCommand.start();
   
   connected = false;
+
+  wg.begin();
   
   successfulRequests = 0;
   totalPacketLoss = 0;
@@ -47,18 +62,20 @@ void setup(){
   
   initLCD();  
   
-  site_url = "\"robi-pilot.herokuapp.com/";
+  site_url = "\"softbot-ras.herokuapp.com/";
 
   powerOn();
   
   while(!connected){
     mySerial.println("AT+CSQ");
-    delay(100);
+    delay(1000);
+    showSerialData();
     mySerial.println("AT+CGATT?");
-    delay(100);
+    showSerialData();
+    delay(1000);
     checkConnection();
     printConnectionData();
-    delay(1000);
+    delay(10000);
   }  
  
   initGSM();
@@ -78,6 +95,28 @@ void powerOn(){
   digitalWrite(GMS_POWER, HIGH);
   delay(2000);
   digitalWrite(GMS_POWER, LOW);
+  delay(2000);
+}
+
+void checkRFID(){
+  if(wg.available())
+  {   
+    long code = wg.getCode();
+    if (code == GRANTED)
+    {
+      Serial.println(code);
+      digitalWrite(relays[0], HIGH);
+      delay(3000);
+      // digitalWrite(relays[0], LOW);
+      Serial.println("Granted");
+    }else{
+      Serial.println(code);
+      digitalWrite(relays[0], LOW);
+      delay(3000);
+      // digitalWrite(relays[0], HIGH);
+      Serial.println("Denied");
+    }
+  }
 }
 
 void initLCD(){
@@ -90,41 +129,48 @@ void initLCD(){
   myGLCD.print("Demo Project", LEFT, 30);
   myGLCD.update();
 
-  delay(6000);
+  delay(3000);
 }
 
 void initGSM(){
   mySerial.println("AT+SAPBR=3,1,\"CONTYPE\",\"GPRS\"");//setting the SAPBR, the connection type is using gprs
   showSerialData();
-  delay(500);
+  delay(1500);
  
   mySerial.println("AT+SAPBR=3,1,\"APN\",\"internet\"");//setting the APN, the second need you fill in your local apn server
   showSerialData();
-  delay(500);
+  delay(1500);
   
   mySerial.println("AT+SAPBR=1,1");//setting the APN, the second need you fill in your local apn server
   showSerialData();
-  delay(400);
+  delay(1400);
   
   mySerial.println("AT+SAPBR=2,1");//setting the APN, the second need you fill in your local apn server
   showSerialData();  
-  delay(400);
+  delay(1400);
 }
  
 void loop(){  
-  delay(1500);
+  // delay(500);
   // myGLCD.clrScr();
   // myGLCD.print("Processing...", LEFT, 0);
   // myGLCD.update();
-  initializeHTTP();
-  getAllCommands();
-  terminateHTTP();
+  
+  checkForWebCommand.check(syncServer, 10000);
+  checkForRFIDInput.check(checkRFID, 1);
+  // checkRFID();
+  // updateLog();
+  
   clearSerialData();
 }
 
+void syncServer(){
+  initializeHTTP();
+  getAllCommands();
+  terminateHTTP();
+}
+
 void updateLog(){  
-  if(ifRemoteAccess()){
-    initializeHTTP();
     String url = "AT+HTTPPARA=\"URL\",";
     if(switches[0]){
       switches[0] = false;
@@ -136,9 +182,6 @@ void updateLog(){
       url += site_url + "uploadLog/site_1234/1/1/123456789/2014-08-06 21:23:14\"";
     }
     makeHTTPRequest(url);
-    terminateHTTP();
-    clearSerialData();
-  }
 }
 
 boolean ifRemoteAccess(){
@@ -457,5 +500,10 @@ void showSerialData(){
   while(mySerial.available()!=0)
     Serial.write(mySerial.read());
 }
+
+
+
+
+
 
 
