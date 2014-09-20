@@ -20,10 +20,10 @@ void ISR_INT0()
   weigand_counter = WEIGAND_WAIT_TIME;
   elapsed = millis()-start;
   start = millis();
-  Serial.println(elapsed);
-  lastCode = cardCode;
-  Serial.println(cardCode);  
-  
+  // Serial.println(elapsed);
+  // lastCode = cardCode;
+  // Serial.println(cardCode);  
+  rfid();
 }
 
 // interrupt that happens when INT1 goes low (1 bit)
@@ -36,9 +36,10 @@ void ISR_INT1()
   weigand_counter = WEIGAND_WAIT_TIME;
   elapsed = millis()-start;
   start = millis();
-  Serial.println(elapsed);
-  lastCode = cardCode;
-  Serial.println(cardCode);  
+  // Serial.println(elapsed);
+  // lastCode = cardCode;
+  // Serial.println(cardCode);
+  rfid();
 }
 
 void setup()
@@ -59,7 +60,9 @@ void setup()
 }
 
 void loop(){
-  rfid();
+  while (1) {
+
+  }
 }
 
 void rfid()
