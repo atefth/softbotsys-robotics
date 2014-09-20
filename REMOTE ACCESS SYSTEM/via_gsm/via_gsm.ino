@@ -516,7 +516,7 @@ void loop(){
   // delay(500);  
   // checkForWebCommand.check(syncServer, 10000);
   // checkForRFIDInput.check(checkRFID, 1);
-  
+  syncServer();
   clearSerialData();
 }
 
@@ -761,7 +761,7 @@ void loop(){
   //Get commands for all the switches from server
   void getAllCommands(){
     String url = "AT+HTTPPARA=\"URL\",";
-    url += site_url + "getAll\"";
+    url += site_url + "getAll\"" + site_id;
     makeHTTPRequest(url);
     if(!readAllInputs()){ 
       updateChangesToSwitches();
